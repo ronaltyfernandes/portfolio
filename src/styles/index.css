@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-white: #fafafa;
+  --color-white-full: #ffffff;
+  --color-grey: #f4f5f7;
+  --color-blue: #247ba0;
+  --color-blueHalf: #1e6786;
+  --color-blueDark: #19536b;
+  --color-blueSuperDark: #15465a;
+  --color-lightBlue: #3c8fb3;
+  --color-salmon: #f39a9d;
+  --color-lightgren: #c6d8d3;
+}

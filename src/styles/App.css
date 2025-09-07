@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Orbitron:wght@400..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html {
+  overflow-x: hidden;
+  scrollbar-gutter: stable; /* evita compensação da largura */
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Orbitron', sans-serif;
+  font-optical-sizing: auto;
+}
+
+h2,
+h3 {
+  font-family: 'Orbitron', monospace;
+}
+
+body {
+  background-color: var(--color-blue);
+  overflow-x: hidden;
+  color: var(--color-white);
+  font-family: 'Fira Code', monospace;
+}
+
+button {
+  font-weight: 700;
+  font-family: 'Orbitron', monospace;
+}
+
+.Orbitron {
+  font-family: 'Orbitron', monospace;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-animated-gradient {
+  animation: gradientAnimation 6s ease infinite;
+  background: linear-gradient(
+    270deg,
+    var(--color-blueDark),
+    var(--color-blueHalf),
+    var(--color-blue)
+  );
+  background-size: 400% 400%; /* 400% já é suficiente */
+  min-height: 100vh; /* garante altura cheia */
+}
+
+/* Para navegadores baseados em WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* largura da barra */
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e7eb; /* cor do trilho */
+}
+
+::-webkit-scrollbar-thumb {
+  border: 2px solid #e5e7eb; /* borda para destacar */
+  border-radius: 9999px; /* arredondado */
+  background-color: var(--color-blueDark); /* cor da barra */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-blueDark); /* cor no hover */
+}
+
+/* Para Firefox */
+* {
+  scrollbar-color: var(--color-blueDark) #e5e7eb;
+  scrollbar-width: thin;
+}
+
+::selection {
+  background: var(--color-blueDark); /* fundo ao selecionar */
+  color: #ffffff; /* cor do texto */
+}
