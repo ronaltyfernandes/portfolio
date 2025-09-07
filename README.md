@@ -6,7 +6,7 @@ Uma aplicação web interativa desenvolvida com React, Tailwind CSS e Framer Mot
 
 ## 🔗 Links
 
-👉 [Acesse a aplicação](https://ronaltyfernandes.github.io/agroBem/)
+👉 [Acesse a aplicação](https://ronaltyfernandes.github.io/)
 
 ---
 

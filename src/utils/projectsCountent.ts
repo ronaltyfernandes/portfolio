@@ -34,8 +34,8 @@ const projectsCountent = [
     title: 'Portfólio',
     description:
       'O projeto conta com animações, design responsivo e integração de tecnologias modernas, servindo como vitrine para meus trabalhos e experiências.',
-    projectLink: 'https://linkdoproj1.com',
-    codeLink: 'https://linkdoproj1.com',
+    projectLink: 'https://ronaltyfernandes.github.io/portfolio/',
+    codeLink: 'https://github.com/ronaltyfernandes/portfolio',
     image: portfolioPrint,
     icons: [siTypescript, siTailwindcss, siReact, siVite, siGithub],
   },
