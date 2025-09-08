@@ -14,16 +14,16 @@ function AboutMe() {
       id="sobre"
       className="bg-animated-gradient relative flex min-h-screen flex-col"
     >
-      <div className="relative flex flex-col items-center justify-center gap-4 xl:w-full xl:flex-row xl:justify-around xl:px-70">
+      <div className="relative flex flex-col items-center justify-center gap-4 xl:w-full xl:justify-around 2xl:flex-row 2xl:px-70">
         {/* meia lua no topo */}
-        <div className="absolute top-[-0px] left-1/2 h-[70px] w-[110%] -translate-x-1/2 rounded-b-[200%] bg-white xl:bottom-[-70px] xl:h-[150px]" />
+        <div className="absolute top-[-0px] left-1/2 h-[70px] w-[110%] -translate-x-1/2 rounded-b-[200%] bg-white xl:bottom-[-70px] 2xl:h-[150px]" />
 
-        <div className="mt-30 flex items-center justify-center px-3 xl:mt-60 xl:h-full xl:w-1/2">
+        <div className="mt-30 flex items-center justify-center px-3 xl:h-full 2xl:mt-60 2xl:w-1/2">
           <PerfilParallax />
         </div>
 
         <motion.div
-          className="mx-3 flex flex-col justify-between gap-4 rounded-lg bg-white p-4 py-10 shadow-lg xl:mt-60 xl:h-128 xl:w-1/2 xl:p-10"
+          className="mx-3 flex flex-col justify-between gap-4 rounded-lg bg-white p-4 py-10 shadow-lg xl:w-1/2 xl:p-10 2xl:mt-60 2xl:h-128"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ amount: 0.3 }}

@@ -42,7 +42,7 @@ function Projects() {
         </h1>
       </div>
 
-      <motion.div className="mt-10 grid grid-cols-1 justify-items-center gap-10 px-3 md:grid-cols-2 xl:grid-cols-3">
+      <motion.div className="mt-10 grid grid-cols-1 justify-items-center gap-10 px-3 md:grid-cols-2 xl:mt-0 xl:grid-cols-3 2xl:mt-10">
         {projects.map((project) => (
           <motion.div key={project.title} variants={cardVariants}>
             <CardProjects
