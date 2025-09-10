@@ -7,6 +7,7 @@ import IconCarousel from '../../components/animation/IconCarousel';
 import Footer from '../footer/Footer';
 import AnimatedText from '../../components/animation/AnimatedText';
 import aboutMeCountent from '../../utils/aboutMeContent';
+import curriculo from '../../assets/curriculo-ronalty.pdf';
 
 function AboutMe() {
   return (
@@ -52,7 +53,7 @@ function AboutMe() {
           >
             <ButtonDownload
               text="Baixar Currículo Virtual"
-              link={''}
+              link={curriculo}
               icon={<Download size={24} />}
             />
           </motion.div>
