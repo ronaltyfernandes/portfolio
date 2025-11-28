@@ -1,6 +1,7 @@
 import agroBemImage from '../assets/projects/agroBemPrint.png';
 import digitalBankPrint from '../assets/projects/digitalBankDesktopPrint.jpg';
 import portfolioPrint from '../assets/projects/portfolioPrint.png';
+import bitEdu from '../assets/projects/bitCode.png';
 import {
   siJavascript,
   siTypescript,
@@ -9,6 +10,8 @@ import {
   siReact,
   siVite,
   siMui,
+  siFigma,
+  siCss,
 } from 'simple-icons/icons';
 
 const projectsCountent = [
@@ -38,6 +41,15 @@ const projectsCountent = [
     codeLink: 'https://github.com/ronaltyfernandes/portfolio',
     image: portfolioPrint,
     icons: [siTypescript, siTailwindcss, siReact, siVite, siGithub],
+  },
+  {
+    title: 'BitCode',
+    description:
+      'Um projeto feito para aprimorar minhas habilidades com o figma, criando uma pagina para um ONG fictícia que ensina programação para crianças carentes.',
+    projectLink: 'https://ronaltyfernandes.github.io/BitEdu/',
+    codeLink: 'https://github.com/ronaltyfernandes/BitEdu',
+    image: bitEdu,
+    icons: [siFigma, siJavascript, siCss, siGithub],
   },
 ];
 

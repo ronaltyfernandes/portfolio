@@ -52,14 +52,14 @@ button {
 }
 
 .bg-animated-gradient {
-  animation: gradientAnimation 6s ease infinite;
+  animation: gradientAnimation 8s ease infinite;
   background: linear-gradient(
     270deg,
     var(--color-blueDark),
     var(--color-blueHalf),
     var(--color-blue)
   );
-  background-size: 400% 400%; /* 400% já é suficiente */
+  background-size: 400% 400%;
   min-height: 100vh; /* garante altura cheia */
 }
 
@@ -74,12 +74,12 @@ button {
 
 ::-webkit-scrollbar-thumb {
   border: 2px solid #e5e7eb; /* borda para destacar */
-  border-radius: 9999px; /* arredondado */
-  background-color: var(--color-blueDark); /* cor da barra */
+  border-radius: 12px;
+  background-color: var(--color-blueDark);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--color-blueDark); /* cor no hover */
+  background-color: var(--color-blueDark);
 }
 
 /* Para Firefox */

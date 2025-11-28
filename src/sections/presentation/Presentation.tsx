@@ -22,14 +22,14 @@ function Presentation() {
         ref={ref}
         className="m-auto mx-3 flex flex-col items-start justify-between rounded-lg bg-white p-6 shadow-lg xl:w-1/2"
         animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
-        transition={{ duration: 0.8, ease: 'easeOut' }}
+        transition={{ duration: 0.5, ease: 'easeOut' }}
       >
         <div>
           {/* Saudação */}
           <motion.h3
             className="text-blueDark mt-4 text-lg"
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.6, delay: 2 }}
           >
             Olá,
           </motion.h3>

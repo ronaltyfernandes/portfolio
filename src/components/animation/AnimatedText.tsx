@@ -24,7 +24,10 @@ export default function AnimatedText({
   const ref = useRef(null);
 
   // Detecta se o componente está na tela
-  const isInView = useInView(ref, { margin: '-50px 0px -50px 0px' });
+  const isInView = useInView(ref, {
+    margin: '-50px 0px -50px 0px',
+    once: true,
+  });
 
   useEffect(() => {
     let interval: number;
