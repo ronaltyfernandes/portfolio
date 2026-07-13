@@ -6,7 +6,7 @@ Uma aplicação web interativa desenvolvida com React, Tailwind CSS e Framer Mot
 
 ## 🔗 Links
 
-👉 [Acesse a aplicação](https://ronaltyfernandes.github.io/)
+👉 [Acesse a aplicação](https://ronaltyfernandes.github.io/portfolio/)
 
 ---
 
@@ -14,18 +14,18 @@ Uma aplicação web interativa desenvolvida com React, Tailwind CSS e Framer Mot
 
 <!-- Adicione aqui prints da aplicação -->
 <p align="center">
-  <img src="./src//assets/gifPortfolio.gif" alt="Home" width="700"/>
+  <img src="./src//assets/projects/portfolioPrint.png" alt="Home" width="700"/>
 </p>
 
 ---
 
 ## 📦 Tecnologias Utilizadas
 
-- ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) **React** – Biblioteca principal para construção da interface.
-- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) **TypeScript** – Tipagem estática para maior segurança e organização do código.
-- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) **Tailwind CSS** – Framework para estilização rápida e responsiva.
-- ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white) **Framer Motion** – Animações suaves e interativas no carrossel e header.
-- ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-181717?style=for-the-badge&logo=github&logoColor=white) **GitHub Pages** – Hospedagem da aplicação diretamente do repositório.
+- ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) – Biblioteca principal para construção da interface.
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) – Tipagem estática para maior segurança e organização do código.
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) – Framework para estilização rápida e responsiva.
+- ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)  – Animações suaves e interativas no carrossel e header.
+- ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-181717?style=for-the-badge&logo=github&logoColor=white)  – Hospedagem da aplicação diretamente do repositório.
 
 ---
 
