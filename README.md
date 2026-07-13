@@ -14,7 +14,7 @@ Uma aplicação web interativa desenvolvida com React, Tailwind CSS e Framer Mot
 
 <!-- Adicione aqui prints da aplicação -->
 <p align="center">
-  <img src="./src//assets/projects/portfolioPrint.png" alt="Home" width="700"/>
+  <img src="./src/assets/projects/portfolioPrint.png" alt="Home" width="700"/>
 </p>
 
 ---
