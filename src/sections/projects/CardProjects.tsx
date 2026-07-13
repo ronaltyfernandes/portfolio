@@ -14,7 +14,7 @@ function CardProjects({
   icons,
 }: cardProjectsProps) {
   return (
-    <div className="bg-blue flex flex-col justify-between rounded-md p-4 shadow-2xl transition-transform duration-300 hover:scale-105">
+    <div className="bg-blue flex h-full flex-col rounded-md p-4 shadow-2xl transition-transform duration-300 hover:scale-105">
       <div className="h-64" onClick={() => undefined}>
         <img
           onClick={() => window.open(projectLink, '_blank')}
@@ -23,19 +23,26 @@ function CardProjects({
           className="h-full w-full rounded-t-sm object-cover"
         />
       </div>
-      <div className="flex h-4/5 flex-col justify-between rounded-b-sm bg-white p-3">
-        <div className="bg-blueDark mb-1 flex w-full items-center gap-2 rounded-md px-2 py-2">
-          {icons?.map((icon, index) => (
-            <div className="rounded-sm bg-white p-1" key={index}>
-              <SvgIcons icon={icon} size={28} />
-            </div>
-          ))}
-        </div>
+
+      {/* icones */}
+      <div className="flex flex-1 flex-col rounded-b-sm bg-white p-3">
+<div className="bg-blueDark mb-1 flex flex-wrap items-center gap-1.5 rounded-md px-2 py-2 sm:gap-2">
+  {icons?.map((icon, index) => (
+    <div
+      key={index}
+      className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-md bg-white sm:h-10 sm:w-10"
+    >
+      <SvgIcons
+        icon={icon}
+      />
+    </div>
+  ))}
+</div>
 
         <h2 className="text-blueDark text-4xl font-semibold">{title}</h2>
 
         {/* bloco fixo para descrição */}
-        <div className="flex min-h-20 items-start">
+        <div className="h-28 overflow-hidden">
           <AnimatedText
             description={description}
             fontSize="text-md"
@@ -43,7 +50,7 @@ function CardProjects({
           />
         </div>
 
-        <div className="mt-4 flex gap-2">
+        <div className="mt-auto flex gap-2">
           <Button
             text="Ver Projeto"
             link={projectLink}

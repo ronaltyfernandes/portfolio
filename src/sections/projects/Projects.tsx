@@ -40,7 +40,7 @@ function Projects() {
   return (
     <motion.div
       id="projetos"
-      className="flex-col gap-4 bg-white pt-10 xl:flex xl:w-full xl:px-20 xl:pt-30"
+      className="flex-col gap-4 bg-white py-10 xl:flex xl:w-full xl:py-30 lg:px-20"
       initial="visible"
       animate="visible"
     >
@@ -65,6 +65,7 @@ function Projects() {
             variants={convergeVariants}
             initial="hidden"
             animate="visible"
+            className="h-full w-full"
           >
             <CardProjects
               codeLink={project.codeLink}

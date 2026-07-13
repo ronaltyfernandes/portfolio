@@ -1,6 +1,8 @@
 import agroBemImage from '../assets/projects/agroBemPrint.png';
 import digitalBankPrint from '../assets/projects/digitalBankDesktopPrint.jpg';
 import portfolioPrint from '../assets/projects/portfolioPrint.png';
+import finanPrint from '../assets/projects/home-finan.png';
+import emailIaPrint from '../assets/projects/email-ia-respostas.png';
 import bitEdu from '../assets/projects/bitCode.png';
 import {
   siJavascript,
@@ -12,9 +14,55 @@ import {
   siMui,
   siFigma,
   siCss,
+  siNodedotjs,
+  siTypeorm,
+  siPostgresql,
+  siDocker,
+  siJsonwebtokens,
+  siReactrouter,
+  siPython,
+  siOpenai,
+  siFastapi,
 } from 'simple-icons/icons';
 
 const projectsCountent = [
+  {
+    title: 'Finan',
+    description:
+      'Aplicação Full Stack para gerenciamento de finanças pessoais com controle de receitas, despesas, categorias, metas e dashboards interativos.',
+    projectLink: 'https://ronaltyfernandes.github.io/finan/#/',
+    codeLink: 'https://github.com/ronaltyfernandes/finan',
+    image: finanPrint,
+    icons: [
+      siTypescript,
+      siReact,
+      siVite,
+      siTailwindcss,
+      siReactrouter,
+      siNodedotjs,
+      siTypeorm,
+      siJsonwebtokens,
+      siPostgresql,
+      siDocker,
+    ],
+  },
+  {
+    title: 'Email IA',
+    description:
+      'Aplicação Full Stack que utiliza Inteligência Artificial para classificar emails automaticamente e gerar respostas inteligentes, com histórico de análises e interface responsiva.',
+    projectLink: 'https://email-ia-production.up.railway.app/',
+    codeLink: 'https://github.com/ronaltyfernandes/email-ia',
+    image: emailIaPrint,
+    icons: [
+      siReact,
+      siVite,
+      siTailwindcss,
+      siPython,
+      siOpenai,
+      siFastapi,
+      siPostgresql,
+    ],
+  },
   {
     title: 'Digital Bank',
     description:
